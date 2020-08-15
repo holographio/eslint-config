@@ -1,0 +1,16 @@
+{
+  "name": "@holograph/eslint-config",
+  "version": "1.0.0",
+  "description": "eslint config",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "zora": "^4.0.0"
+  }
+}
