@@ -8,15 +8,16 @@ module.exports = {
     ecmaVersion: 2020,
     ecmaFeatures: {
       jsx: true
-    }
+    },
+    sourceType: 'module'
   },
   rules: {
     indent: [
       'error',
       2,
       {
-        "ignoredNodes": [
-          "CallExpression > *"
+        'ignoredNodes': [
+          'CallExpression > *'
         ]
       }
     ],
